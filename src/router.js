@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
 
 Vue.use(Router)
 
@@ -10,16 +9,55 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'cofee-float',
+      component: () => import('./views/CoffeeFloat.vue')
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    }
+      path: '/milk-tea',
+      name: 'milk-tea',
+      component: () => import('./views/MilkTea.vue')
+    },
+    {
+      path: '/banana-shake',
+      name: 'banana-shake',
+      component: () => import('./views/BananaShake.vue')
+    },
+    {
+      path: '/vanilla-frappuccino',
+      name: 'vanilla-frappuccino',
+      component: () => import('./views/VanillaFrappuccino.vue')
+    },
+    {
+      path: '/beyond-education',
+      name: 'beyond-education',
+      component: () => import('./views/BeyondEducation.vue')
+    },
+    {
+      path: '/kokokara2017',
+      name: 'kokokara2017',
+      component: () => import('./views/kokokara2017.vue')
+    },
+    {
+      path: '/kokokara2018',
+      name: 'kokokara2018',
+      component: () => import('./views/kokokara2018.vue')
+    },
+    {
+      path: '/leaper',
+      name: 'leaper',
+      component: () => import('./views/Leaper.vue')
+    },
+    {
+      path: '/taliki',
+      name: 'taliki',
+      component: () => import('./views/taliki.vue')
+    },
+    {
+      path: '/chiachia',
+      name: 'chiachia',
+      component: () => import('./views/chiachia.vue')
+    },
+
+
   ]
 })

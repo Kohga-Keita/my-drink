@@ -19,6 +19,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "vue-particles": "^1.0.9",
+    "vue-smooth-scroll": "^1.0.13",
     "vue-template-compiler": "^2.5.21"
   }
 }
