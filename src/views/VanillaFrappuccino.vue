@@ -5,11 +5,8 @@
     </div>
     <div class="vanilla">
       <h2>Contact</h2>
-      <p>I accept design work.</p>
-      <p>We support from website design to coding and SEO.</p>
-      <p>Although I’m not a creative designer,</p>
-      <p>I create a website that values the customer’s intentions and thoughts.</p>
-      <p>Please feel free to contact us regarding design.</p>
+      <p>Webサイトやアプリのデザインに関するお仕事を受けています。</p>
+      <p>お気軽にご連絡ください。</p>
     </div>
   </div>
 </template>
@@ -30,11 +27,13 @@ h2 {
   margin-bottom: 0.2em;
 }
 p {
-  font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif;
-  font-size: 26px;
-  font-weight: 700;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   color: #454545;
   margin-left: 3vw;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: left;
 }
 img {
   width: 40%;
@@ -47,10 +46,11 @@ img {
   text-align: left;
   margin: auto 0;
   padding-left: 10vw;
+  padding-top: 5vw;
 }
 .frappuccino {
   position: absolute;
-  top: 10vw;
+  top: 15vw;
   left: 50vw;
 }
 @media screen and (max-width: 960px) {

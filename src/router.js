@@ -57,6 +57,21 @@ export default new Router({
       name: 'chiachia',
       component: () => import('./views/chiachia.vue')
     },
+    {
+      path: '/tripleone',
+      name: '/tripleone',
+      component: () => import('./views/tripleone.vue')
+    },
+    {
+      path: '/hamburger-boys',
+      name: '/hamburger-boys',
+      component: () => import('./views/HamburgerBoys.vue')
+    },
+    {
+      path: '/my-holiday',
+      name: '/my-holiday',
+      component: () => import('./views/MyHoliday.vue')
+    },
 
 
   ]

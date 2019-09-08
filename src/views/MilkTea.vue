@@ -17,9 +17,24 @@
           <br>
           <br>1996年、北海道生まれ。
           <br>大学在学中に、デザインの可能性に魅了されWebデザインの勉強を始める。
-          <br>フリーランスとして、ロゴやWebサイトの企画・制作・運用を数十社経験する。
+          <br>フリーランスとして、ロゴやWebサイト、映像の企画・制作・運用をしています。
           <br>
-          <br>見た目だけではなく、使いやすさや気持ちの伝わるデザインを心がけています。
+          <br>
+          <span>Illustrator</span>
+          <span>Photoshop</span>
+          <span>Adobe XD</span>
+          <br class="sp_br">
+          <span>Sketch</span>
+          <span>After Effects</span>
+          <span>Final Cut Pro</span>
+          <br>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Vue.js</span>
+          <br class="sp_br">
+          <span>Laravel</span>
+          <span>R</span>
+          <span>Git</span>
         </p>
       </div>
       <div class="hydrogen">
@@ -110,6 +125,15 @@ a {
   display: inline-block;
   text-align: left;
 }
+.oxygen span {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 3rem;
+  background-color: #f3f7fb;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
 .hydrogen {
   display: flex;
   flex-wrap: wrap;
@@ -164,6 +188,9 @@ a {
   .oxygen p {
     font-size: 1rem;
   }
+  .oxygen span {
+    font-size: 0.8rem;
+  }
   .hydrogen {
     display: block;
     width: 90%;
@@ -188,6 +215,11 @@ a {
     width: 80%;
     height: auto;
     margin: 0 auto -3vh auto;
+  }
+}
+@media screen and (min-width: 480px) {
+  .sp_br {
+    display: none;
   }
 }
 </style>
